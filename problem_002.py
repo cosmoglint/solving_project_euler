@@ -1,4 +1,4 @@
-# find sum of all even fibonacci numbers below four million.
+# find sum of all even fibonacci numbers with value below four million.
 
 
 
