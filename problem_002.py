@@ -4,4 +4,5 @@
 val = 0
 
 for i in range(1,101,3):
-    print(i)
+    print(i+val)
+    val = i
