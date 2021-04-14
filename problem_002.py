@@ -3,7 +3,7 @@
 
 
 # phi = 1.618034
-# golden ration fibonacci formula of (nth number ) = ((phi ** n) - ((1 - phi) ** n))  // (5**(1/2))
+# golden ratio fibonacci formula of (nth number ) = ((phi ** n) - ((1 - phi) ** n))  // (5**(1/2))
 
 phi = 1.618034
 sum = 0
