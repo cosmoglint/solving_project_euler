@@ -10,7 +10,7 @@ defmodule Prime do
   def eradicate([head | tail]) when tail != []do
     div_head? =  check_rem(head)
     newtail = tail
-      |> Enum.drop_while(fn x -> div_head?.(x) end)
+      |> Enum.drop_every(head)
       |> Enum.to_list
     [head | eradicate(newtail)]
   end
